@@ -23,8 +23,7 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - Reusable Code: "https://github.com/joelsolo99/joelsolo99.github.io/tree/master/reusable_code"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-
+  All Posts: "/all-posts/""
 
 ################
 # --- Logo --- #
