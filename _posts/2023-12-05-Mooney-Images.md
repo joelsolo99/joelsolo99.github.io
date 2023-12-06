@@ -2,8 +2,8 @@
 layout: post
 title: Mooney Images and Cyber Security
 subtitle: What do Cognitive Psychology and Cyber Security have in Common?
-cover-img: /assets/img/mooney_image/easy/me_and_rudi.jpg
-thumbnail-img: /assets/img/mooney_image/easy/me_and_rudi.jpg
+cover-img: /assets/img/mooney_images/easy/me_and_rudi.jpg
+thumbnail-img: /assets/img/mooney_images/easy/me_and_rudi.jpg
 category: Mooney Images
 tags: mooney images, mooney, first post, R
 author: Joel Solomons
