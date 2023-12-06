@@ -8,6 +8,4 @@ tags: mooney images, first post
 author: Joel Solomons
 ---
 
-It may seem a strange place to start this blog, but it's how my whole project started.
-
-![Me and my Cat as a Mooney Image](/assets/img/mooney_images/easy/me_and_rudi.jpg)
+It may seem a strange place to start this blog, but it's how my whole project started.![Me and my Cat as a Mooney Image](/assets/img/mooney_images/easy/me_and_rudi.jpg)
