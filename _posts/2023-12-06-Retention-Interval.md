@@ -32,6 +32,7 @@ As part of my commitment to open-source software and reproducibility, I have dec
 	Organisation: University of Plymouth
 	Email: joel.solomons@plymouth.ac.uk
 	Date: 05/12/2023
+	Format: HTML
 -->
 
 
@@ -133,3 +134,4 @@ var intervalId = setInterval(run, 1000);
 </body>
 </html>
 ```
+Download the code [here:](https://github.com/joelsolo99/joelsolo99.github.io/blob/master/reusable_code/number_game_distractor_task.html)

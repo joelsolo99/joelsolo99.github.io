@@ -22,7 +22,7 @@ author: Joel Solomons
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Reusable Code "https://github.com/joelsolo99/joelsolo99.github.io/tree/master/reusable_code"
     - Learn markdown: "https://www.markdowntutorial.com/"
 
 
