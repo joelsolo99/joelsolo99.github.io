@@ -5,7 +5,7 @@ subtitle: What do Cognitive Psychology and Cyber Security have in Common?
 cover-img: /assets/img/mooney_image/easy/me_and_rudi.jpg
 thumbnail-img: /assets/img/mooney_image/easy/me_and_rudi.jpg
 category: Mooney Images
-tags: mooney images, first post
+tags: mooney images, mooney, first post, R
 author: Joel Solomons
 ---
 

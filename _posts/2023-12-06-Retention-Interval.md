@@ -5,7 +5,7 @@ subtitle: My first attempt at coding that isn't R
 cover-img: /assets/img/mooney_image/easy/me_and_rudi.jpg
 thumbnail-img: /assets/img/mooney_image/easy/me_and_rudi.jpg
 category: Code
-tags: retention interval, research methods, code, HTML, JavaScript, Open Source, 
+tags: retention interval, research methods, code, HTML, JavaScript, Open Source, R
 author: Joel Solomons
 ---
 
@@ -27,4 +27,4 @@ As part of my commitment to open-source software and reproducibility, I have dec
 
 
 Download the code [here:](https://github.com/joelsolo99/joelsolo99.github.io/blob/master/reusable_code/number_game_distractor_task.html)
-Play the game [here:](assets/code_demos/retention_interval.html)
+Play the game [here:](https://joelsolo99.github.io/assets/code_demos/retention_interval.html)
