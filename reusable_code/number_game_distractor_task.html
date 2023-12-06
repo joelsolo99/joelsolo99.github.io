@@ -1,0 +1,106 @@
+<!-- 
+	Title: Number Guessing Game
+	Author: Joel Solomons
+	Organisation: University of Plymouth
+	Email: joel.solomons@plymouth.ac.uk
+	Date: 05/12/2023
+-->
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="gameDiv" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <div id="gameContent" style="text-align: center;">
+        <h2>Number Guessing Game</h2>
+
+        <p>Guess a number between 1 and 100:</p>
+
+        <input type="number" id="guess" name="guess" min="1" max="100">
+        <button type="button" onclick="playGame()">Submit</button>
+
+        <p id="message"></p>
+        <p id="counter"></p>
+        <p id="timer"></p>
+        <p id="correctGuesses"></p>
+        <p id="guessesPerNumber"></p>
+    </div>
+
+    <!-- Form -->
+    <form id="moveOnForm" style="display: none; text-align: center;">
+        
+        <input type='submit' value='Continue with the experiment'>
+    </form>
+</div>
+
+<script>
+// Prepare phase
+var gameIsOver = false; // Add this line to declare a variable indicating the game status
+var randomNumber = Math.floor(Math.random() * 100) + 1;
+var startTime = Date.now();
+var guessCounter = 0;
+var correctGuessCounter = 0;
+var totalGuesses = 0;
+var timeLeft = 120; // Time left in seconds
+
+// Initialise game_over
+var game_over = 0;
+
+// Add an event listener to the input field
+document.getElementById("guess").addEventListener("keyup", function(event) {
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+        // Cancel the default action, if needed
+        event.preventDefault();
+        // Trigger the button element with a click
+        playGame();
+    }
+});
+
+// Game logic
+function playGame() {
+    var playerGuess = document.getElementById("guess").value;
+    guessCounter++;
+    document.getElementById("counter").innerHTML = "Number of guesses: " + guessCounter;
+    if (playerGuess < randomNumber) {
+        document.getElementById("message").innerHTML = "Too low! Try again.";
+    } else if (playerGuess > randomNumber) {
+        document.getElementById("message").innerHTML = "Too high! Try again.";
+    } else {
+        document.getElementById("message").innerHTML = "Congratulations! You found the number. A new number has been generated.";
+        // Increase the correct guess counter and update the total guesses
+        correctGuessCounter++;
+        totalGuesses += guessCounter;
+        document.getElementById("correctGuesses").innerHTML = "Number of correctly guessed numbers: " + correctGuessCounter;
+        document.getElementById("guessesPerNumber").innerHTML = "Average number of guesses per number: " + (totalGuesses / correctGuessCounter).toFixed(2);
+        // Generate a new random number and reset the guess counter
+        randomNumber = Math.floor(Math.random() * 100) + 1;
+        guessCounter = 0;
+    }
+}
+
+// Run phase
+function run() {
+    // Update the timer
+    timeLeft = 120 - Math.floor((Date.now() - startTime) / 1000);
+    document.getElementById("timer").innerHTML = "Time left: " + timeLeft + " seconds";
+
+    // Check if the game is over
+    if (timeLeft <= 0) {
+        // End the current item and move on to the next one
+        document.getElementById("gameContent").style.display = "none"; // Hide the game content
+        document.getElementById("moveOnForm").style.display = "block"; // Show the form
+        clearInterval(intervalId); // Clear the interval
+        gameIsOver = true; // Set the game over flag
+        game_over = 1; // Set vars.game_over to 1 when the game is over
+    }
+}
+
+// Call the run function every second to check the game status
+var intervalId = setInterval(run, 1000);
+
+</script>
+
+</body>
+</html>
