@@ -26,5 +26,6 @@ The task is written in HTML and JavaScript, and it's the first thing I've writte
 As part of my commitment to open-source software and reproducibility, I have decided to make all my code freely available online. You can see the code on this website, or download the source code from my GitHub project or from the resources section at the top. I'm aiming to produce more reusable code so keep a look out!
 
 
-Download the code [here:](https://github.com/joelsolo99/joelsolo99.github.io/blob/master/reusable_code/number_game_distractor_task.html)
+Download and view the code [here:](https://github.com/joelsolo99/joelsolo99.github.io/tree/master/reusable_code) (it's called number_game_distractor_task).
+
 Play the game [here:](https://joelsolo99.github.io/assets/code_demos/retention_interval.html)
