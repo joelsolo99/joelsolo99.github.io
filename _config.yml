@@ -25,8 +25,7 @@ navbar-links:
     - Reusable Code: "https://github.com/joelsolo99/joelsolo99.github.io/tree/master/reusable_code"
   All Posts: "/all-posts/"
   Research: 
-    - Experiments: 
-      - Explicit Memory Contamination: "/experiments/explicit-contamination.html"
+    - Explicit Memory Contamination: "/experiments/explicit-contamination.html"
 
 ################
 # --- Logo --- #
