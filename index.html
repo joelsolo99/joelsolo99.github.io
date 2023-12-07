@@ -3,3 +3,5 @@ layout: home
 title: Eye of the Beholder
 subtitle: My PhD Project Website
 ---
+{% assign about = site.pages | where: 'name','about.md' %}
+{{ about }}
