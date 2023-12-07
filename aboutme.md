@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About me
 subtitle: Who am I?
 ---
