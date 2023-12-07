@@ -2,7 +2,7 @@
 layout: post
 title: Retention Interval 
 subtitle: My first attempt at coding that isn't R
-cover-img: https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?cs=srgb&dl=pexels-pixabay-270404.jpg&fm=jpg
+cover-img: 
 thumbnail-img: https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?cs=srgb&dl=pexels-pixabay-270404.jpg&fm=jpg
 category: Code
 tags: retention interval, research methods, code, HTML, JavaScript, Open Source, R
