@@ -5,7 +5,7 @@ permalink: /experiments/
 ---
 
 {% for page in site.pages %}
-  {% if page.path contains 'experiments' and page.url != '/experiments/' and page.title != null %}
+  {% if page.path contains '_experiments' and page.url != '/experiments/' and page.title != null %}
     <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
     <p>{{ page.excerpt }}</p>
   {% endif %}
