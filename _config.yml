@@ -26,6 +26,8 @@ navbar-links:
   All Posts: "/all-posts/"
   Research: 
     - Experiments: "/experiments/"
+    
+collections: [experiments]
 
 ################
 # --- Logo --- #
