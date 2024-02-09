@@ -9,10 +9,6 @@ tags:  research methods, code, HTML, JavaScript, Open Source, R, Reproducibilty,
 author: Joel Solomons
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 **Preface**
 
 My PhD is based around factors affecting why people might interpret exactly the same stimulus in different ways. Almost all of my research is experimental, and requires a paradigm that collects character-based identification responses from participants. In this paradigm, participants are tasked with identifying various objects, and their responses are recorded for analysis.
