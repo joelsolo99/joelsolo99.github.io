@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Explicit Contamination Experiment
 subtitle: What's wrong with previous Mooney Image Studies?
 ---
